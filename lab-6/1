@@ -1,0 +1,10 @@
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+person1 = Person("John", 30)
+person2 = Person("Alice", 25)
+print("Person 1:")
+print(f"Name: {person1.name}, Age: {person1.age}")
+print("\nPerson 2:")
+print(f"Name: {person2.name}, Age: {person2.age}")
